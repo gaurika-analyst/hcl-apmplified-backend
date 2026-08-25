@@ -1,0 +1,198 @@
+[
+  {
+    "id": "sql",
+    "name": "SQL",
+    "category": "Data & Databases",
+    "description": "Structured Query Language for querying and managing relational databases.",
+    "prerequisites": []
+  },
+  {
+    "id": "excel",
+    "name": "Excel",
+    "category": "Data Analysis",
+    "description": "Spreadsheet management, formulas, pivot tables, and basic data analysis.",
+    "prerequisites": []
+  },
+  {
+    "id": "statistics",
+    "name": "Statistics",
+    "category": "Mathematics & Analytics",
+    "description": "Descriptive and inferential statistics, probability, distributions, and hypothesis testing.",
+    "prerequisites": []
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Programming Languages",
+    "description": "General-purpose programming language widely used in data science, web dev, and automation.",
+    "prerequisites": []
+  },
+  {
+    "id": "pandas",
+    "name": "Pandas",
+    "category": "Data Manipulation",
+    "description": "Data analysis and manipulation library for Python.",
+    "prerequisites": ["python"]
+  },
+  {
+    "id": "numpy",
+    "name": "NumPy",
+    "category": "Data Science",
+    "description": "Numerical computing library for arrays and matrices in Python.",
+    "prerequisites": ["python"]
+  },
+  {
+    "id": "data_visualization",
+    "name": "Data Visualization",
+    "category": "Data Analysis",
+    "description": "Creating charts, dashboards, and visual insights using tools like Tableau, Power BI, Matplotlib, or Seaborn.",
+    "prerequisites": ["excel"]
+  },
+  {
+    "id": "data_cleaning",
+    "name": "Data Cleaning",
+    "category": "Data Analysis",
+    "description": "Pre-processing raw data, handling missing values, deduplication, and feature preparation.",
+    "prerequisites": ["excel"]
+  },
+  {
+    "id": "machine_learning",
+    "name": "Machine Learning",
+    "category": "AI & ML",
+    "description": "Supervised, unsupervised algorithms, model evaluation, regression, and classification.",
+    "prerequisites": ["python", "statistics", "pandas"]
+  },
+  {
+    "id": "deep_learning",
+    "name": "Deep Learning",
+    "category": "AI & ML",
+    "description": "Neural networks, PyTorch, TensorFlow, CNNs, Transformers, and LLM fine-tuning.",
+    "prerequisites": ["machine_learning", "numpy"]
+  },
+  {
+    "id": "mathematics",
+    "name": "Mathematics",
+    "category": "Mathematics & Analytics",
+    "description": "Linear algebra, calculus, and mathematical optimization for ML models.",
+    "prerequisites": []
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "category": "Software Engineering",
+    "description": "Version control system for tracking code changes and team collaboration.",
+    "prerequisites": []
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "DevOps & Infrastructure",
+    "description": "Containerization platform for building and packaging applications into portable containers.",
+    "prerequisites": ["linux"]
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "category": "Operating Systems & Admin",
+    "description": "Command line interface, bash scripting, file permissions, and system administration.",
+    "prerequisites": []
+  },
+  {
+    "id": "aws_cloud",
+    "name": "AWS/Cloud Fundamentals",
+    "category": "Cloud Computing",
+    "description": "Cloud architecture, IAM, EC2, S3, networking, and serverless infrastructure on AWS/Azure.",
+    "prerequisites": ["linux"]
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "category": "DevOps & Infrastructure",
+    "description": "Container orchestration system for automating application deployment, scaling, and management.",
+    "prerequisites": ["docker"]
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform",
+    "category": "DevOps & Infrastructure",
+    "description": "Infrastructure as Code (IaC) tool for provisioning cloud resources declaratively.",
+    "prerequisites": ["aws_cloud"]
+  },
+  {
+    "id": "networking",
+    "name": "Networking",
+    "category": "IT Infrastructure",
+    "description": "TCP/IP, DNS, HTTP/S, VPNs, subnets, routers, firewalls, and network protocols.",
+    "prerequisites": []
+  },
+  {
+    "id": "security",
+    "name": "Cybersecurity Fundamentals",
+    "category": "Security",
+    "description": "Threat vectors, cryptography, identity access management, vulnerability analysis, and security controls.",
+    "prerequisites": ["networking"]
+  },
+  {
+    "id": "cicd",
+    "name": "CI/CD",
+    "category": "DevOps & Infrastructure",
+    "description": "Continuous Integration and Deployment pipelines using GitHub Actions, GitLab CI, or Jenkins.",
+    "prerequisites": ["git"]
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Programming Languages",
+    "description": "Core dynamic language of the web for interactive client side and Node server logic.",
+    "prerequisites": []
+  },
+  {
+    "id": "html_css",
+    "name": "HTML & CSS",
+    "category": "Web Development",
+    "description": "Web layout design, modern CSS flexbox/grid, responsive styling, and web accessibility.",
+    "prerequisites": []
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "category": "Frontend Frameworks",
+    "description": "Component-based UI framework, state management, hooks, and single page application development.",
+    "prerequisites": ["javascript", "html_css"]
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI / Python Web",
+    "category": "Backend Frameworks",
+    "description": "High performance REST/GraphQL API development in Python with Pydantic and async routing.",
+    "prerequisites": ["python"]
+  },
+  {
+    "id": "databases_sql_nosql",
+    "name": "Database Architecture",
+    "category": "Data & Databases",
+    "description": "Relational (PostgreSQL) & NoSQL (MongoDB, Redis) data modeling, indexing, transactions.",
+    "prerequisites": ["sql"]
+  },
+  {
+    "id": "ui_design",
+    "name": "UI Design & Figma",
+    "category": "Design",
+    "description": "Interface wireframing, prototyping, design systems, visual hierarchy, and UI typography.",
+    "prerequisites": []
+  },
+  {
+    "id": "ux_research",
+    "name": "UX Research",
+    "category": "Design",
+    "description": "User personas, journey mapping, usability testing, research interviews, and user feedback.",
+    "prerequisites": []
+  },
+  {
+    "id": "business_analysis",
+    "name": "Business Analysis & Requirements",
+    "category": "Business Analytics",
+    "description": "Translating business goals into technical requirements, KPIs, stakeholder communication, and process modeling.",
+    "prerequisites": []
+  }
+]

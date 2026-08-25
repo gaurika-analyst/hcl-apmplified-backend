@@ -1,0 +1,236 @@
+[
+  {
+    "id": "data-analyst",
+    "name": "Data Analyst",
+    "description": "Transforms data into actionable business insights through querying, statistical analysis, and visual dashboards.",
+    "required_skills": ["sql", "excel", "statistics", "python", "pandas", "data_visualization", "data_cleaning"],
+    "skill_weights": {
+      "sql": 0.25,
+      "excel": 0.15,
+      "statistics": 0.15,
+      "python": 0.15,
+      "pandas": 0.10,
+      "data_visualization": 0.10,
+      "data_cleaning": 0.10
+    },
+    "recommended_skill_order": ["excel", "sql", "data_cleaning", "statistics", "python", "pandas", "data_visualization"]
+  },
+  {
+    "id": "data-scientist",
+    "name": "Data Scientist",
+    "description": "Builds statistical models and predictive algorithms to solve complex data challenges.",
+    "required_skills": ["python", "statistics", "pandas", "numpy", "sql", "data_visualization", "machine_learning", "mathematics"],
+    "skill_weights": {
+      "python": 0.20,
+      "statistics": 0.20,
+      "machine_learning": 0.20,
+      "pandas": 0.10,
+      "numpy": 0.10,
+      "sql": 0.10,
+      "mathematics": 0.05,
+      "data_visualization": 0.05
+    },
+    "recommended_skill_order": ["python", "sql", "statistics", "mathematics", "pandas", "numpy", "data_visualization", "machine_learning"]
+  },
+  {
+    "id": "ml-engineer",
+    "name": "Machine Learning Engineer",
+    "description": "Designs, deploys, and maintains production-ready machine learning pipelines and models.",
+    "required_skills": ["python", "mathematics", "statistics", "numpy", "pandas", "machine_learning", "deep_learning", "git", "docker", "fastapi", "aws_cloud"],
+    "skill_weights": {
+      "python": 0.15,
+      "machine_learning": 0.20,
+      "deep_learning": 0.15,
+      "docker": 0.10,
+      "fastapi": 0.10,
+      "pandas": 0.05,
+      "numpy": 0.05,
+      "statistics": 0.05,
+      "mathematics": 0.05,
+      "git": 0.05,
+      "aws_cloud": 0.05
+    },
+    "recommended_skill_order": ["python", "git", "statistics", "mathematics", "pandas", "numpy", "machine_learning", "deep_learning", "fastapi", "docker", "aws_cloud"]
+  },
+  {
+    "id": "ai-engineer",
+    "name": "AI Engineer",
+    "description": "Integrates modern Artificial Intelligence, LLMs, vision, and multimodal models into scalable software products.",
+    "required_skills": ["python", "deep_learning", "machine_learning", "fastapi", "git", "docker", "databases_sql_nosql"],
+    "skill_weights": {
+      "python": 0.20,
+      "deep_learning": 0.25,
+      "machine_learning": 0.20,
+      "fastapi": 0.15,
+      "docker": 0.10,
+      "git": 0.05,
+      "databases_sql_nosql": 0.05
+    },
+    "recommended_skill_order": ["python", "git", "machine_learning", "deep_learning", "fastapi", "databases_sql_nosql", "docker"]
+  },
+  {
+    "id": "ai-ml-engineer",
+    "name": "AI/ML Engineer",
+    "description": "Combines deep learning research with robust production deployment for intelligent autonomous systems.",
+    "required_skills": ["python", "mathematics", "machine_learning", "deep_learning", "docker", "kubernetes", "fastapi", "cicd"],
+    "skill_weights": {
+      "python": 0.15,
+      "machine_learning": 0.20,
+      "deep_learning": 0.20,
+      "docker": 0.15,
+      "kubernetes": 0.10,
+      "fastapi": 0.10,
+      "mathematics": 0.05,
+      "cicd": 0.05
+    },
+    "recommended_skill_order": ["python", "mathematics", "machine_learning", "deep_learning", "fastapi", "docker", "kubernetes", "cicd"]
+  },
+  {
+    "id": "software-developer",
+    "name": "Software Developer",
+    "description": "Constructs reliable desktop, mobile, and server-side software applications.",
+    "required_skills": ["python", "javascript", "sql", "git", "databases_sql_nosql", "fastapi"],
+    "skill_weights": {
+      "python": 0.25,
+      "javascript": 0.20,
+      "sql": 0.20,
+      "git": 0.15,
+      "databases_sql_nosql": 0.10,
+      "fastapi": 0.10
+    },
+    "recommended_skill_order": ["python", "javascript", "git", "sql", "databases_sql_nosql", "fastapi"]
+  },
+  {
+    "id": "full-stack-developer",
+    "name": "Full Stack Developer",
+    "description": "Builds end-to-end web applications combining dynamic frontends and robust backends.",
+    "required_skills": ["html_css", "javascript", "react", "python", "fastapi", "sql", "git", "docker"],
+    "skill_weights": {
+      "javascript": 0.20,
+      "react": 0.20,
+      "python": 0.15,
+      "fastapi": 0.15,
+      "html_css": 0.10,
+      "sql": 0.10,
+      "git": 0.05,
+      "docker": 0.05
+    },
+    "recommended_skill_order": ["html_css", "javascript", "git", "react", "python", "fastapi", "sql", "docker"]
+  },
+  {
+    "id": "frontend-developer",
+    "name": "Frontend Developer",
+    "description": "Specializes in building intuitive, responsive, and visually appealing web interfaces.",
+    "required_skills": ["html_css", "javascript", "react", "git", "ui_design"],
+    "skill_weights": {
+      "javascript": 0.30,
+      "react": 0.30,
+      "html_css": 0.20,
+      "ui_design": 0.10,
+      "git": 0.10
+    },
+    "recommended_skill_order": ["html_css", "javascript", "git", "react", "ui_design"]
+  },
+  {
+    "id": "backend-developer",
+    "name": "Backend Developer",
+    "description": "Architects high-performance server logic, database structures, and API microservices.",
+    "required_skills": ["python", "fastapi", "sql", "databases_sql_nosql", "git", "docker", "linux"],
+    "skill_weights": {
+      "python": 0.25,
+      "fastapi": 0.20,
+      "sql": 0.20,
+      "databases_sql_nosql": 0.15,
+      "docker": 0.10,
+      "git": 0.05,
+      "linux": 0.05
+    },
+    "recommended_skill_order": ["python", "sql", "git", "fastapi", "databases_sql_nosql", "linux", "docker"]
+  },
+  {
+    "id": "devops-engineer",
+    "name": "DevOps Engineer",
+    "description": "Automates software delivery pipelines, cloud deployment, and system reliability.",
+    "required_skills": ["linux", "docker", "kubernetes", "cicd", "terraform", "aws_cloud", "git"],
+    "skill_weights": {
+      "linux": 0.20,
+      "docker": 0.20,
+      "kubernetes": 0.20,
+      "cicd": 0.15,
+      "terraform": 0.10,
+      "aws_cloud": 0.10,
+      "git": 0.05
+    },
+    "recommended_skill_order": ["linux", "git", "docker", "cicd", "aws_cloud", "kubernetes", "terraform"]
+  },
+  {
+    "id": "cloud-engineer",
+    "name": "Cloud Engineer",
+    "description": "Architects, manages, and secures enterprise infrastructure in public and private clouds.",
+    "required_skills": ["linux", "networking", "aws_cloud", "docker", "kubernetes", "terraform", "security", "cicd"],
+    "skill_weights": {
+      "aws_cloud": 0.25,
+      "linux": 0.15,
+      "networking": 0.15,
+      "docker": 0.15,
+      "terraform": 0.10,
+      "kubernetes": 0.10,
+      "security": 0.05,
+      "cicd": 0.05
+    },
+    "recommended_skill_order": ["linux", "networking", "aws_cloud", "docker", "kubernetes", "terraform", "security", "cicd"]
+  },
+  {
+    "id": "cybersecurity-analyst",
+    "name": "Cybersecurity Analyst",
+    "description": "Protects organizational assets by detecting vulnerabilities, monitoring networks, and investigating threats.",
+    "required_skills": ["networking", "security", "linux", "python", "aws_cloud"],
+    "skill_weights": {
+      "security": 0.35,
+      "networking": 0.25,
+      "linux": 0.20,
+      "python": 0.10,
+      "aws_cloud": 0.10
+    },
+    "recommended_skill_order": ["networking", "security", "linux", "python", "aws_cloud"]
+  },
+  {
+    "id": "database-administrator",
+    "name": "Database Administrator",
+    "description": "Ensures database availability, high performance, security backups, and efficient query execution.",
+    "required_skills": ["sql", "databases_sql_nosql", "linux", "security", "python"],
+    "skill_weights": {
+      "sql": 0.35,
+      "databases_sql_nosql": 0.30,
+      "linux": 0.15,
+      "security": 0.10,
+      "python": 0.10
+    },
+    "recommended_skill_order": ["sql", "databases_sql_nosql", "linux", "security", "python"]
+  },
+  {
+    "id": "ui-ux-designer",
+    "name": "UI/UX Designer",
+    "description": "Crafts beautiful user interface mockups, user research studies, and intuitive user experiences.",
+    "required_skills": ["ui_design", "ux_research", "html_css"],
+    "skill_weights": {
+      "ui_design": 0.45,
+      "ux_research": 0.40,
+      "html_css": 0.15
+    },
+    "recommended_skill_order": ["ux_research", "ui_design", "html_css"]
+  },
+  {
+    "id": "business-analyst",
+    "name": "Business Analyst",
+    "description": "Bridges executive business goals with technology solutions using data analysis and domain requirement modeling.",
+    "required_skills": ["business_analysis", "excel", "sql", "data_visualization"],
+    "skill_weights": {
+      "business_analysis": 0.40,
+      "excel": 0.25,
+      "sql": 0.20,
+      "data_visualization": 0.15
+    },
+    "recommended_skill_order": ["business_analysis", "excel", "sql", "data_visualization"]
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "id": "q_sql_1",
+    "question": "Which SQL clause is used to filter records resulting from a GROUP BY statement?",
+    "options": ["WHERE", "HAVING", "ORDER BY", "FILTER"],
+    "correct_answer": "HAVING",
+    "skill_id": "sql",
+    "difficulty": "intermediate",
+    "explanation": "HAVING is used to filter groups created by GROUP BY, while WHERE filters individual rows before grouping."
+  },
+  {
+    "id": "q_sql_2",
+    "question": "Which SQL JOIN returns all records when there is a match in either left or right table?",
+    "options": ["INNER JOIN", "LEFT JOIN", "FULL OUTER JOIN", "RIGHT JOIN"],
+    "correct_answer": "FULL OUTER JOIN",
+    "skill_id": "sql",
+    "difficulty": "beginner",
+    "explanation": "FULL OUTER JOIN combines the results of both LEFT and RIGHT joins."
+  },
+  {
+    "id": "q_excel_1",
+    "question": "Which Excel function searches for a value in the leftmost column of a table and returns a value in the same row from a specified column?",
+    "options": ["INDEX", "MATCH", "VLOOKUP", "LOOKUP"],
+    "correct_answer": "VLOOKUP",
+    "skill_id": "excel",
+    "difficulty": "beginner",
+    "explanation": "VLOOKUP looks for a key in the first column and retrieves a corresponding value from a specified column index."
+  },
+  {
+    "id": "q_excel_2",
+    "question": "What is the primary function of Pivot Tables in Microsoft Excel?",
+    "options": ["Writing VBA scripts", "Summarizing and analyzing large datasets dynamically", "Designing web templates", "Creating database indexes"],
+    "correct_answer": "Summarizing and analyzing large datasets dynamically",
+    "skill_id": "excel",
+    "difficulty": "intermediate",
+    "explanation": "Pivot tables allow users to group, summarize, and explore raw tabular data interactively."
+  },
+  {
+    "id": "q_stats_1",
+    "question": "What measure of central tendency is least affected by extreme outliers in a dataset?",
+    "options": ["Mean", "Median", "Standard Deviation", "Variance"],
+    "correct_answer": "Median",
+    "skill_id": "statistics",
+    "difficulty": "beginner",
+    "explanation": "The median represents the middle value of ordered data, making it robust against extreme outliers compared to the arithmetic mean."
+  },
+  {
+    "id": "q_stats_2",
+    "question": "In hypothesis testing, what is a Type I error?",
+    "options": ["Failing to reject a false null hypothesis", "Rejecting a true null hypothesis", "Calculating standard error incorrectly", "Using a sample size that is too large"],
+    "correct_answer": "Rejecting a true null hypothesis",
+    "skill_id": "statistics",
+    "difficulty": "intermediate",
+    "explanation": "A Type I error occurs when the null hypothesis is true, but you reject it (false positive)."
+  },
+  {
+    "id": "q_py_1",
+    "question": "What data structure in Python is mutable and ordered?",
+    "options": ["Tuple", "List", "Set", "String"],
+    "correct_answer": "List",
+    "skill_id": "python",
+    "difficulty": "beginner",
+    "explanation": "Lists are ordered, mutable sequences in Python. Tuples and strings are immutable, while sets are unordered."
+  },
+  {
+    "id": "q_py_2",
+    "question": "What is the output of len(set([1, 2, 2, 3, 4, 4])) in Python?",
+    "options": ["6", "4", "5", "3"],
+    "correct_answer": "4",
+    "skill_id": "python",
+    "difficulty": "beginner",
+    "explanation": "A set automatically removes duplicate elements, leaving {1, 2, 3, 4} which has a length of 4."
+  },
+  {
+    "id": "q_pandas_1",
+    "question": "Which Pandas method is used to remove missing or NaN values from a DataFrame?",
+    "options": ["df.fillna()", "df.dropna()", "df.remove_null()", "df.clean()"],
+    "correct_answer": "df.dropna()",
+    "skill_id": "pandas",
+    "difficulty": "beginner",
+    "explanation": "df.dropna() drops rows or columns that contain missing values (NaN)."
+  },
+  {
+    "id": "q_pandas_2",
+    "question": "Which Pandas function is used to aggregate data by one or more categorical columns?",
+    "options": ["pivot()", "groupby()", "merge()", "concat()"],
+    "correct_answer": "groupby()",
+    "skill_id": "pandas",
+    "difficulty": "intermediate",
+    "explanation": "groupby() splits the DataFrame into groups to perform aggregate operations like sum, mean, or count."
+  },
+  {
+    "id": "q_numpy_1",
+    "question": "What is the main advantage of NumPy arrays over standard Python lists for numerical operations?",
+    "options": ["They allow heterogenous data types", "They are stored contiguously in memory and support vectorized math", "They automatically save to disk", "They execute inside a web browser"],
+    "correct_answer": "They are stored contiguously in memory and support vectorized math",
+    "skill_id": "numpy",
+    "difficulty": "intermediate",
+    "explanation": "NumPy arrays utilize C-contiguous memory layout enabling fast element-wise vectorized computation."
+  },
+  {
+    "id": "q_viz_1",
+    "question": "Which type of chart is best suited for showing the distribution of a continuous numerical variable?",
+    "options": ["Pie Chart", "Bar Chart", "Histogram", "Line Graph"],
+    "correct_answer": "Histogram",
+    "skill_id": "data_visualization",
+    "difficulty": "beginner",
+    "explanation": "Histograms group continuous numerical data into bins to display frequency distribution."
+  },
+  {
+    "id": "q_clean_1",
+    "question": "What is data imputation?",
+    "options": ["Removing rows with outliers", "Replacing missing values with estimated values (such as mean or median)", "Encrypting personal data", "Converting numbers into strings"],
+    "correct_answer": "Replacing missing values with estimated values (such as mean or median)",
+    "skill_id": "data_cleaning",
+    "difficulty": "intermediate",
+    "explanation": "Data imputation is the process of filling missing data points using statistical estimates."
+  },
+  {
+    "id": "q_ml_1",
+    "question": "Which algorithm is a supervised classification method based on finding an optimal decision boundary hyperplane?",
+    "options": ["K-Means Clustering", "Support Vector Machine (SVM)", "Principal Component Analysis", "Isolation Forest"],
+    "correct_answer": "Support Vector Machine (SVM)",
+    "skill_id": "machine_learning",
+    "difficulty": "intermediate",
+    "explanation": "SVM finds the maximum-margin hyperplane that separates classes in feature space."
+  },
+  {
+    "id": "q_dl_1",
+    "question": "Which neural network layer type is specifically optimized for spatial features in images?",
+    "options": ["Dense Layer", "Convolutional Layer (CNN)", "Recurrent Layer (RNN)", "Embedding Layer"],
+    "correct_answer": "Convolutional Layer (CNN)",
+    "skill_id": "deep_learning",
+    "difficulty": "intermediate",
+    "explanation": "Convolutional layers apply filters across grid data (images) to extract local spatial patterns."
+  },
+  {
+    "id": "q_math_1",
+    "question": "What does the dot product of two orthogonal vectors equal?",
+    "options": ["1", "0", "-1", "The sum of vector lengths"],
+    "correct_answer": "0",
+    "skill_id": "mathematics",
+    "difficulty": "beginner",
+    "explanation": "Orthogonal (perpendicular) vectors have a cosine of 90 degrees, resulting in a dot product of zero."
+  },
+  {
+    "id": "q_git_1",
+    "question": "Which Git command creates a new branch and switches to it in a single step?",
+    "options": ["git branch -new", "git checkout -b", "git commit -b", "git merge --create"],
+    "correct_answer": "git checkout -b",
+    "skill_id": "git",
+    "difficulty": "beginner",
+    "explanation": "git checkout -b <branch_name> creates a new branch and switches HEAD to it."
+  },
+  {
+    "id": "q_docker_1",
+    "question": "What is the key difference between a Docker container and a Virtual Machine (VM)?",
+    "options": ["Containers require a full guest OS", "Containers share the host operating system kernel and are lightweight", "VMs run faster than containers", "Docker only runs on Windows"],
+    "correct_answer": "Containers share the host operating system kernel and are lightweight",
+    "skill_id": "docker",
+    "difficulty": "intermediate",
+    "explanation": "Containers virtualize at the OS kernel level, making them smaller and faster to start than full hypervisor VMs."
+  },
+  {
+    "id": "q_linux_1",
+    "question": "Which Linux command displays current active system processes and resource usage in real time?",
+    "options": ["ps -ef", "top", "df -h", "ls aux"],
+    "correct_answer": "top",
+    "skill_id": "linux",
+    "difficulty": "beginner",
+    "explanation": "top (or htop) provides a dynamic real-time view of running processes and CPU/RAM consumption."
+  },
+  {
+    "id": "q_aws_1",
+    "question": "Which AWS cloud service provides resizable, virtual server compute capacity in the cloud?",
+    "options": ["Amazon S3", "Amazon EC2", "Amazon RDS", "Amazon DynamoDB"],
+    "correct_answer": "Amazon EC2",
+    "skill_id": "aws_cloud",
+    "difficulty": "beginner",
+    "explanation": "Amazon EC2 (Elastic Compute Cloud) provides scalable virtual instances."
+  },
+  {
+    "id": "q_k8s_1",
+    "question": "What is the smallest deployable computing unit in Kubernetes?",
+    "options": ["Node", "Pod", "Service", "Deployment"],
+    "correct_answer": "Pod",
+    "skill_id": "kubernetes",
+    "difficulty": "intermediate",
+    "explanation": "A Pod is the basic building block in Kubernetes, encapsulating one or more co-located containers."
+  },
+  {
+    "id": "q_tf_1",
+    "question": "What command in Terraform applies proposed infrastructure updates to the cloud provider?",
+    "options": ["terraform plan", "terraform apply", "terraform init", "terraform build"],
+    "correct_answer": "terraform apply",
+    "skill_id": "terraform",
+    "difficulty": "beginner",
+    "explanation": "terraform apply executes the execution plan to reach the desired state."
+  },
+  {
+    "id": "q_net_1",
+    "question": "Which protocol operates at the Transport layer of the OSI model to provide reliable, connection-oriented data transfer?",
+    "options": ["UDP", "TCP", "IP", "HTTP"],
+    "correct_answer": "TCP",
+    "skill_id": "networking",
+    "difficulty": "beginner",
+    "explanation": "TCP (Transmission Control Protocol) guarantees delivery and packet ordering."
+  },
+  {
+    "id": "q_sec_1",
+    "question": "What is the principal rule of the Least Privilege principle in IT security?",
+    "options": ["Users should have full admin rights by default", "Users and systems should be granted only the minimum permissions necessary to complete their job", "Passwords should never expire", "Firewalls should block all outbound traffic"],
+    "correct_answer": "Users and systems should be granted only the minimum permissions necessary to complete their job",
+    "skill_id": "security",
+    "difficulty": "beginner",
+    "explanation": "Least privilege limits potential attack vectors by restricting access rights to essential capabilities."
+  },
+  {
+    "id": "q_cicd_1",
+    "question": "What is the main goal of Continuous Integration (CI)?",
+    "options": ["Automatically merging code changes frequently into a shared repository and running automated builds/tests", "Deploying directly to production without testing", "Storing code backups on external hard drives", "Writing documentation automatically"],
+    "correct_answer": "Automatically merging code changes frequently into a shared repository and running automated builds/tests",
+    "skill_id": "cicd",
+    "difficulty": "intermediate",
+    "explanation": "CI ensures code additions are continuously merged and verified with automated test suites."
+  },
+  {
+    "id": "q_js_1",
+    "question": "What is the difference between '==' and '===' in JavaScript?",
+    "options": ["'==' checks type and value, '===' checks value only", "'===' performs strict equality comparison without type coercion", "There is no difference", "'===' is only used for strings"],
+    "correct_answer": "'===' performs strict equality comparison without type coercion",
+    "skill_id": "javascript",
+    "difficulty": "beginner",
+    "explanation": "The triple equals operator '===' compares both value and type without converting types."
+  },
+  {
+    "id": "q_html_1",
+    "question": "Which HTML5 semantic element should wrap the main navigation links of a website?",
+    "options": ["<section>", "<nav>", "<aside>", "<header>"],
+    "correct_answer": "<nav>",
+    "skill_id": "html_css",
+    "difficulty": "beginner",
+    "explanation": "The <nav> tag specifies major navigational blocks."
+  },
+  {
+    "id": "q_react_1",
+    "question": "Which React Hook is used to execute side effects in function components?",
+    "options": ["useState", "useEffect", "useContext", "useReducer"],
+    "correct_answer": "useEffect",
+    "skill_id": "react",
+    "difficulty": "beginner",
+    "explanation": "useEffect lets you perform side effects (fetching data, subscriptions, DOM mutations) in functional components."
+  },
+  {
+    "id": "q_fastapi_1",
+    "question": "What library does FastAPI use under the hood for data validation and request serialization?",
+    "options": ["Django ORM", "Pydantic", "Marshmallow", "SQLAlchemy"],
+    "correct_answer": "Pydantic",
+    "skill_id": "fastapi",
+    "difficulty": "beginner",
+    "explanation": "FastAPI integrates Pydantic to validate and parse JSON payloads into Python objects automatically."
+  },
+  {
+    "id": "q_db_arch_1",
+    "question": "What does the ACID acronym stand for in database transaction management?",
+    "options": ["Atomicity, Consistency, Isolation, Durability", "Authentication, Encryption, Identity, Data", "Array, Column, Index, Document", "Automated, Concurrent, Indexed, Distributed"],
+    "correct_answer": "Atomicity, Consistency, Isolation, Durability",
+    "skill_id": "databases_sql_nosql",
+    "difficulty": "intermediate",
+    "explanation": "ACID properties guarantee reliable database transaction processing."
+  },
+  {
+    "id": "q_ui_1",
+    "question": "In UI design, what does visual hierarchy refer to?",
+    "options": ["The file folder structure of design files", "Arranging visual elements in order of importance so users process key information first", "The speed at which images load", "Using only dark colors"],
+    "correct_answer": "Arranging visual elements in order of importance so users process key information first",
+    "skill_id": "ui_design",
+    "difficulty": "beginner",
+    "explanation": "Visual hierarchy guides user attention via size, contrast, spacing, and typography."
+  },
+  {
+    "id": "q_ux_1",
+    "question": "What is the main purpose of creating User Personas during UX research?",
+    "options": ["To hire target user actors", "To represent key user segment traits, goals, and pain points to inform design decisions", "To create social media profiles", "To code user authentication forms"],
+    "correct_answer": "To represent key user segment traits, goals, and pain points to inform design decisions",
+    "skill_id": "ux_research",
+    "difficulty": "beginner",
+    "explanation": "User personas provide empathetic, evidence-based reference points for product design choices."
+  },
+  {
+    "id": "q_ba_1",
+    "question": "What is a Functional Requirement in business analysis?",
+    "options": ["System performance metrics like page load speed", "Specific behaviors or operations that a software product must perform", "Budget allocation schedules", "Color palette guidelines"],
+    "correct_answer": "Specific behaviors or operations that a software product must perform",
+    "skill_id": "business_analysis",
+    "difficulty": "beginner",
+    "explanation": "Functional requirements define what the system must do (e.g. 'user can reset password')."
+  }
+]

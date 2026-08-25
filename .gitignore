@@ -1,0 +1,23 @@
+# Python & Virtual Environment
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & Temporary Files
+*.log
+scratch/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
